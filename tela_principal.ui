@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>primeira</class>
+ <widget class="QMainWindow" name="primeira">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>881</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>881</width>
+    <height>551</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>881</width>
+    <height>551</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#F5F5F5;
+background-color:#363636;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnTreinar_rede">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>150</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>11</pointsize>
+      <weight>87</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:16px;	
+	background-color:#70ad47;
+	color:white;
+	font:700 11pt &quot;Verdana&quot;;
+}
+
+QPushButton:hover {
+   background-color: #0293ee;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Treinar Rede Neural</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCapturar_fotos">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>11</pointsize>
+      <weight>87</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:16px;	
+	background-color:#70ad47;
+	color:white;
+	font:700 11pt &quot;Verdana&quot;;
+}
+
+QPushButton:hover {
+   background-color: #0293ee;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Capturar Fotos</string>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCp_fotos">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>11</pointsize>
+      <weight>87</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:16px;	
+	background-color:#70ad47;
+	color:white;
+	font:700 11pt &quot;Verdana&quot;;
+}
+
+QPushButton:hover {
+   background-color: #0293ee;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Contabilizar Presenças</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCp_video">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>11</pointsize>
+      <weight>87</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:16px;	
+	background-color:#70ad47;
+	color:white;
+	font:700 11pt &quot;Verdana&quot;;
+}
+
+QPushButton:hover {
+   background-color: #0293ee;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Gerar lista de presenças</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="cabecalho">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>881</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:1px solid black;
+background-color:#0293ee;
+background-color:#70ad47;
+margin:4px;
+border-radius:8px;
+
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <widget class="QLabel" name="titulo_principal">
+     <property name="geometry">
+      <rect>
+       <x>392</x>
+       <y>0</y>
+       <width>489</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Verdana</family>
+       <pointsize>11</pointsize>
+       <weight>99</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font: 11pt &quot;Verdana&quot;;
+font-weight:800;
+border-top-left-radius: 80px;
+border-bottom-left-radius: 0px;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Ferramenta &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Presenças por Reconhecimento Facial&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelIconLogo">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>401</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-top-right-radius: 90px;
+border-bottom-right-radius: 0px;
+border:1px solid;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>C:/Users/Vinicius/Pictures/logo.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>0</number>
+     </property>
+     <property name="indent">
+      <number>-1</number>
+     </property>
+     <property name="openExternalLinks">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelIconFerramenta">
+     <property name="geometry">
+      <rect>
+       <x>356</x>
+       <y>4</y>
+       <width>72</width>
+       <height>72</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>C:/Users/Vinicius/Downloads/ferramenta-de-reparacao.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="indent">
+      <number>0</number>
+     </property>
+    </widget>
+    <zorder>labelIconLogo</zorder>
+    <zorder>titulo_principal</zorder>
+    <zorder>labelIconFerramenta</zorder>
+   </widget>
+   <widget class="QGroupBox" name="rodape">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>430</y>
+      <width>881</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:1px solid black;
+margin:4px;
+background-color: #0293ee;
+background-color:#70ad47;
+border-radius:8px;</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="texto_rodape">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>881</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Verdana</family>
+       <pointsize>11</pointsize>
+       <weight>99</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font: 11pt &quot;Verdana&quot;;
+font-weight:800;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Trabalho Conclusão de Curso BCC - Vinícius Assunção Marins&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Instituto Federal de Ciência e Tecnologia de São Paulo - Câmpus Presidente Epitácio&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btnTestar_teste">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>370</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>11</pointsize>
+      <weight>87</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:16px;	
+	background-color:#70ad47;
+	color:white;
+	font:700 11pt &quot;Verdana&quot;;
+}
+
+QPushButton:hover {
+   background-color: #0293ee;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Testar
+[Base de Testes]</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTestar_selecionadas">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>310</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>11</pointsize>
+      <weight>87</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:16px;	
+	background-color:#70ad47;
+	color:white;
+	font:700 11pt &quot;Verdana&quot;;
+}
+
+QPushButton:hover {
+   background-color: #0293ee;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Testar
+[Fotos Selecionadas]</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnGraficos">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>200</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>11</pointsize>
+      <weight>87</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:16px;	
+	background-color:#70ad47;
+	color:white;
+	font:700 11pt &quot;Verdana&quot;;
+}
+
+QPushButton:hover {
+   background-color: #0293ee;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Gráficos</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSair">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>380</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>11</pointsize>
+      <weight>87</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:16px;	
+	background-color:#70ad47;
+	color:white;
+	font:700 11pt &quot;Verdana&quot;;
+}
+
+QPushButton:hover {
+   background-color: #0293ee;
+}</string>
+    </property>
+    <property name="text">
+     <string>Sair</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnListar_alunos">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>11</pointsize>
+      <weight>87</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:16px;	
+	background-color:#70ad47;
+	color:white;
+	font:700 11pt &quot;Verdana&quot;;
+}
+
+QPushButton:hover {
+   background-color: #0293ee;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Listar Alunos</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>107</x>
+      <y>270</y>
+      <width>676</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>QPushButton {
+    border-radius:16px;	
+	background-color:#70ad47;
+	color:white;
+	font:700 11pt &quot;Verdana&quot;;
+}
+
+QPushButton:hover {
+   background-color: #0293ee;
+}
+</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelIconRight">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>210</y>
+      <width>151</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/Vinicius/Downloads/neural (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelIconLeft">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>210</y>
+      <width>151</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/Vinicius/Downloads/comparecimento.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>240</y>
+      <width>20</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="windowModality">
+     <enum>Qt::NonModal</enum>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>290</y>
+      <width>2</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>124</x>
+      <y>400</y>
+      <width>118</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_7">
+    <property name="windowModality">
+     <enum>Qt::NonModal</enum>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>170</y>
+      <width>2</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>170</y>
+      <width>118</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_9">
+    <property name="windowModality">
+     <enum>Qt::NonModal</enum>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>170</y>
+      <width>2</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_10">
+    <property name="geometry">
+     <rect>
+      <x>124</x>
+      <y>170</y>
+      <width>118</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_11">
+    <property name="windowModality">
+     <enum>Qt::NonModal</enum>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>290</y>
+      <width>2</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_12">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>400</y>
+      <width>118</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>242</y>
+      <width>21</width>
+      <height>66</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>208</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/Vinicius/Downloads/relatorio (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>158</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/Vinicius/Downloads/capturar.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>210</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/Vinicius/Downloads/grafico-preditivo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>line_3</zorder>
+   <zorder>line_9</zorder>
+   <zorder>line_12</zorder>
+   <zorder>line_10</zorder>
+   <zorder>line_8</zorder>
+   <zorder>line_7</zorder>
+   <zorder>line_6</zorder>
+   <zorder>line_2</zorder>
+   <zorder>btnTreinar_rede</zorder>
+   <zorder>btnCapturar_fotos</zorder>
+   <zorder>btnCp_fotos</zorder>
+   <zorder>btnCp_video</zorder>
+   <zorder>cabecalho</zorder>
+   <zorder>rodape</zorder>
+   <zorder>btnTestar_teste</zorder>
+   <zorder>btnTestar_selecionadas</zorder>
+   <zorder>btnGraficos</zorder>
+   <zorder>btnSair</zorder>
+   <zorder>btnListar_alunos</zorder>
+   <zorder>line</zorder>
+   <zorder>labelIconRight</zorder>
+   <zorder>labelIconLeft</zorder>
+   <zorder>line_5</zorder>
+   <zorder>line_11</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>btnTreinar_rede</tabstop>
+  <tabstop>btnCp_fotos</tabstop>
+  <tabstop>btnCapturar_fotos</tabstop>
+  <tabstop>btnCp_video</tabstop>
+  <tabstop>btnTestar_teste</tabstop>
+  <tabstop>btnTestar_selecionadas</tabstop>
+  <tabstop>btnGraficos</tabstop>
+  <tabstop>btnSair</tabstop>
+  <tabstop>btnListar_alunos</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnSair</sender>
+   <signal>clicked()</signal>
+   <receiver>primeira</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>830</x>
+     <y>390</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>440</x>
+     <y>275</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>10</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>
