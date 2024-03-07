@@ -1,10 +1,10 @@
-﻿# Ferramenta para controle de presenças de alunos por reconhecimento facial
+﻿# **Ferramenta para controle de presenças de alunos por reconhecimento facial**
 
-Este é o projeto do meu trabalho de conclusão de curso em Bacharelado em Ciência da Computação.
+Este é o projeto do meu Trabalho de Conclusão de Curso em Bacharelado em Ciência da Computação.
 
 Você pode conferir o artigo científico do trabalho no link abaixo:
 
-[Artigo Científico](./to_github/Artigo-Científico.pdf)
+**[>> Artigo Científico <<](./to_github/Artigo-Científico.pdf)**
 
 ## Stack utilizada
 
@@ -31,8 +31,54 @@ Você pode conferir o artigo científico do trabalho no link abaixo:
 - Testar modelo com fotos selecionadas
 - Testar modelo com base de testes
 
+## Instalação (Windows)
+
+### Realizar a instalação das bibliotecas citadas anteriormente
+
+### OpenCV
+```bash
+pip install opencv-python
+```
+
+### Dlib
+- [Instalar CMake](https://cmake.org/download/)
+- [Instalar Visual Studio](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+
+Após as instalações:
+```bash
+pip install cmake
+pip install dlib
+```
+
+###  TensorFlow
+```bash
+pip install tensorflow
+```
+
+### Keras
+Pode-se utilizar o pacote Keras da lib TensorFlow
+```python
+from tensorflow import keras
+```
+
+### Sklearn
+```bash
+pip install scikit-learn
+```
+
+### PyQt5
+```bash
+pip install PyQt5
+```
+
+### SQLAlchemy
+```bash
+pip install SQLAlchemy
+```
+
 ## Screenshots
 
+### Tela Principal da Ferramenta
 <p>
   <img width="400" src="to_github/tela_principal_ferramenta.png">
 </p>
