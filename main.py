@@ -21,7 +21,7 @@ from models import Base, Aluno, Presenca
 import datetime
 from sqlalchemy import func
 
-engine = create_engine('mysql://root:root@localhost/db_tcc')
+engine = create_engine('mysql://username:password@localhost/db_tcc')
 Base.metadata.create_all(engine)
 
 Session = sessionmaker(bind=engine)
